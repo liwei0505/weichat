@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/home/index",
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/invest/index",
+    "pages/more/index",
+    "pages/mine/index"
+  ],
+
+  "window": {
+    "navigationBarBackgroundColor": "#333092",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle":"light",
+    "enablePullDownRefresh": false
+  },
+
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/index",
+      "text": "首页",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home_sel.png"
+    }, {
+      "pagePath": "pages/invest/index",
+      "text": "投资",
+      "iconPath": "images/invest.png",
+      "selectedIconPath": "images/invest_sel.png"
+    }, {
+      "pagePath": "pages/mine/index",
+      "text": "账户",
+      "iconPath": "images/invest.png",
+      "selectedIconPath": "images/invest_sel.png"
+    }, {
+      "pagePath": "pages/more/index",
+      "text": "更多",
+      "iconPath": "images/invest.png",
+      "selectedIconPath": "images/invest_sel.png"
+    }],
+    "selectedColor": "#222ddd"
+  },
+
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  },
+
+  "debug": true
+}

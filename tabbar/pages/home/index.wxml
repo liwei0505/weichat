@@ -1,0 +1,10 @@
+
+<scroll-view class="home-container" scroll-y="true" style="height:750rpx">
+  <!--<swiper class="banner-swiper" indicator-dots="{{ indicatorDots }}" autoplay="{{ autoplay }}" interval="{{ interval }}" duration="{{ duration }}">
+    <swiper-item class="swiper-item" wx:for="{{ banners }}" wx:key="bannersId">
+      <navigator url="" >
+
+      </navigator>
+    </swiper-item>
+  </swiper>-->
+</scroll-view>
