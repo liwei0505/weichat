@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/more/index",
+    "pages/mine/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": "false"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_sel.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "账户",
+        "iconPath": "images/invest.png",
+        "selectedIconPath": "images/invest_sel.png"
+      },
+      {
+        "pagePath": "pages/more/index",
+        "text": "更多",
+        "iconPath": "images/invest.png",
+        "selectedIconPath": "images/invest_sel.png"
+      }
+    ],
+    "selectedColor": "#222ddd",
+    "borderStyle": "black"
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  },
+  "debug": true
+}

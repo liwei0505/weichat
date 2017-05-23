@@ -16,17 +16,6 @@
   color: #aaa;
 }
 
-.click {
-  margin-top: 100px;
-
-}
-
 .usermotto {
   margin-top: 200px;
-}
-
-.slide-image {
-  width: 750rpx;
-  height: 450rpx;
-  color:  aquamarine;
 }

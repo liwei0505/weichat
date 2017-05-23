@@ -1,4 +1,4 @@
-//app.js 管理整个程序的生命周期
+//app.js
 App({
   onLaunch: function () {
     //调用API从本地缓存中获取数据
