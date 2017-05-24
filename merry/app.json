@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/home/index",
+    "pages/home/home",
+    "pages/invest/invest",
     "pages/more/index",
     "pages/mine/index"
   ],
@@ -14,10 +15,16 @@
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/home/index",
+        "pagePath": "pages/home/home",
         "text": "首页",
         "iconPath": "images/home.png",
         "selectedIconPath": "images/home_sel.png"
+      },
+      {
+        "pagePath": "pages/invest/invest",
+        "text": "投资",
+        "iconPath": "images/invest.png",
+        "selectedIconPath": "images/invest_sel.png"
       },
       {
         "pagePath": "pages/mine/index",
